@@ -42,6 +42,7 @@ class ViewController: UIViewController , UIPickerViewDataSource,UIPickerViewDele
     
     //action of button
     @IBAction func StateButtonPressed(_ sender: Any) {
+     StatePicker.isHidden = false
         
     }
     
@@ -59,5 +60,11 @@ class ViewController: UIViewController , UIPickerViewDataSource,UIPickerViewDele
         //return states names 
         return states[row]
     }
+    
+    //hnktb did select row (el action ely hy7sl lma a5tar state) h4yr bs eltext
+    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+        StateButtonPressed.setTitle(states[row], for: UIControlState.normal)
+        StatePicker.isHidden = true
+}
 }
 

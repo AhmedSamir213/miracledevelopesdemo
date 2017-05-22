@@ -120,8 +120,8 @@
                                     <action selector="StateButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QRx-dn-jw4"/>
                                 </connections>
                             </button>
-                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R8o-wU-pJq">
-                                <rect key="frame" x="72" y="508" width="271" height="160"/>
+                            <pickerView hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R8o-wU-pJq">
+                                <rect key="frame" x="71.666666666666686" y="508" width="271" height="160"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="160" id="9rH-gF-gzE"/>
                                     <constraint firstAttribute="width" constant="271" id="HQ5-nz-dNd"/>
